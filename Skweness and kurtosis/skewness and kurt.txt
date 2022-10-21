@@ -1,0 +1,49 @@
+For No-Skewness:
+
+df[i].skew() (skewness) and df[i].kurt() (kurtosis) These values refer to Measure of Distribution and Outlier present in the data.
+
+
+For Moderately Right Skew:
+
+df[i].skew() (skewness) and df[i].kurt() (kurtosis) These values refer to Measure of Distribution and Outlier present in the data.
+
+The Majority of data values lies in between math.floor(df[i].mode().tolist()[0]) and  math.ceil(df[i].mean())
+
+The data lies in nearly normally distribution.
+
+The',i, ' has Few of Outliers(Extream Values) --Suggestion (IQR Method)
+
+
+For Moderately Left Skew:
+
+df[i].skew() (skewness) and df[i].kurt() (kurtosis) These values refer to Measure of Distribution and Outlier present in the data.
+
+The Majority of data values lies in between math.floor(df[i].mean()) and math.ceil(df[i].mode().tolist()[0])
+
+The data lies in nearly normally distribution.
+
+The ',i, '  has Few of Outliers(Extream Values) --Suggestion (IQR Method).
+
+
+For Highly Right Skew:
+
+df[i].skew() (skewness) and df[i].kurt() (kurtosis) These values refer to Measure of Distribution and Outlier present in the data.
+
+The Majority of data values lies in between math.floor(df[i].mode().tolist()[0]) and  math.ceil(df[i].mean())
+
+The data values decreases with increase of i
+
+The i has Lot of Outliers(Extream Values) --Suggestion (Transformation or Scaling)
+
+
+For Highly Left Skew:
+
+df[i].skew() (skewness) and df[i].kurt() (kurtosis) These values refer to Measure of Distribution and Outlier present in the data.
+
+The Majority of data values lies in between math.floor(df[i].mean()) and math.ceil(df[i].mode().tolist()[0])
+
+The data values increase with increase of i
+
+The i has Lot of Outliers(Extream Values) --Suggestion (Transformation or Scaling)
+
+
